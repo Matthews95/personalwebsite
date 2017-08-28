@@ -1,0 +1,71 @@
+*{
+	font-family: 'Nunito Sans', sans-serif;
+}
+body{
+	margin: 0;
+}
+/*nav*/
+.nav_list{
+	position: absolute;
+	list-style-type: none;
+}
+.list_item{
+	padding: 1rem 0;
+}
+.list_item a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
+.list_item a:hover{
+	color: grey;
+	font-size: 1.7em;
+}
+
+/*hero*/
+.hero{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/manhattan.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-bottom: 3px black solid;
+}
+.hero_text{
+	position: absolute;
+	height: 30%;
+	width: 100%;
+	margin-top: 15%;
+	text-align: center;
+	color: white;
+	font-size: 6em;
+}
+/* section II*/
+.box_one{
+	width: 100%;
+	height: auto;
+	background-color: rgb(209,210,215);
+	border-bottom: 3px black solid;
+}
+.box_one h1{
+	padding: 2rem 0 0;
+	margin:0;
+	text-align: center;
+	font-size: 3.5em;
+}
+.box_one p{
+	width: 40%;
+	padding:2.5rem 0 6rem; 
+	font-size: 1.5em;
+	margin: auto;
+	text-align: center;
+}
+/*section III*/
+
+/*contact form*/
+.contact_form{
+	width: 100%;
+	height: 50vh;
+	background-color: red;
+}
